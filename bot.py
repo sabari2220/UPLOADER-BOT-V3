@@ -19,8 +19,8 @@ if __name__ == "__main__" :
     plugins = dict(root="plugins")
     Ntbot = Ntbot(
         "Uploader Bot",
-        bot_token=Config.BOT_TOKEN,
-        api_id=Config.API_ID,
-        api_hash=Config.API_HASH,
+        bot_token="5753542938:AAFQ_23zAEwxGTPRAEMCItqm1Vz6BjEfjXU",
+        api_id="29161994",
+        api_hash="6de0c3c108577f72d5a50097108e9486",
         plugins=plugins)
     Ntbot.run()
